@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
 
@@ -20,8 +19,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+           Dr.Amanya Abdul   <br />{" "}
+            <span className="text-accent">Karim</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -32,16 +31,10 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            The author of Your time is now don't wait. Senior Financial advisor at UAP old mutual. Skilled capacity building trainer and financial literacy specialist.
           </motion.p>
 
           {/* btn */}
-          <div className="flex justify-center xl:hidden relative">
-            <ProjectsBtn />
-          </div>
           <motion.div
             variants={fadeIn("down", 0.4)}
             initial="hidden"
@@ -56,14 +49,7 @@ const Home = () => {
       {/* image */}
       <div className="w-[1280px] h-full absolute right-0 bottom-0">
         {/* bg img */}
-        <div
-          role="img"
-          className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"
-          aria-hidden
-        />
-
-        {/* particles */}
-        <ParticlesContainer />
+        
 
         {/* avatar */}
         <motion.div
@@ -72,7 +58,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-20 lg:right-[8%]"
         >
           <Avatar />
         </motion.div>

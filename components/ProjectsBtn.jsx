@@ -1,27 +1,33 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { HiArrowRight } from "react-icons/hi2";
-
 const ProjectsBtn = () => {
   return (
-    <div className="mx-auto xl:mx-0">
-      <Link
-        href="/work"
-        className="relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
-      >
+    <div className="flex items-center mx-auto xl:mx-0 space-x-4">
+      {/* Image Section */}
+      <div className="w-[141px] h-[148px]">
         <Image
-          src="/rounded-text.png"
+          src="/cover.jpg"
           alt="rounded text"
           width={141}
           height={148}
-          className="animate-spin-slow w-full h-full max-w-[141px] max-h-[148px] pointer-events-none select-none"
+          className="pointer-events-none select-none"
         />
-        <HiArrowRight
-          className="absolute text-4xl group-hover:translate-x-2 transition-all duration-300"
-          aria-hidden
-        />
-      </Link>
+      </div>
+
+      {/* Text and Link Section */}
+      <div className="flex flex-col">
+        <p className="text-sm font-medium mb-2">
+          Get yourself a copy of "Your time is now don't wait" <br/>book now by Dr.Amanya Abdul
+          Karim
+        </p>
+        <Link
+          href="/work"
+          className="relative w-[105px] h-[105px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
+        >
+          <span className="text-center text-sm font-medium">Buy Now<br/>15,000/=<br/>Ugx</span>
+        </Link>
+      </div>
     </div>
   );
 };

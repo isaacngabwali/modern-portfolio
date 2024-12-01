@@ -7,38 +7,24 @@ import {
   RiDribbbleLine,
   RiGithubLine,
   RiPinterestLine,
+  RiTiktokLine,
 } from "react-icons/ri";
 
 export const socialData = [
   {
     name: "YouTube",
-    link: "https://youtube.com",
+    link: "https://youtube.com/@amanyaabdulkarim?si=pznH_RrbNySwIO4e",
     Icon: RiYoutubeLine,
   },
   {
-    name: "Instagram",
-    link: "https://instagram.com",
-    Icon: RiInstagramLine,
+    name: "TikTok",
+    link: "https://vm.tiktok.com/ZMhc7yaEu/",
+    Icon: RiTiktokLine,
   },
   {
     name: "Facebook",
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/amanya.akarim",
     Icon: RiFacebookLine,
-  },
-  {
-    name: "Dribbble",
-    link: "https://dribbble.com",
-    Icon: RiDribbbleLine,
-  },
-  {
-    name: "Pinterest",
-    link: "https://pinterest.com",
-    Icon: RiPinterestLine,
-  },
-  {
-    name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
-    Icon: RiGithubLine,
   },
 ];
 

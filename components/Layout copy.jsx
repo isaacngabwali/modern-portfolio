@@ -2,7 +2,6 @@ import { Sora } from "next/font/google";
 import Head from "next/head";
 
 import Header from "../components/Header";
-import Nav from "../components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
 
 // setup font
@@ -19,7 +18,8 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-      <meta
+        <title>Dr.Amanya Abdul  Karim</title>
+        <meta
           name="description"
           content="Dr.Amanya Abdul  Karim | The author of Your time is now don't wait. Senior Financial advisor at UAP old mutual. Skilled capacity building trainer and financial literacy specialist."
         />
@@ -32,7 +32,6 @@ const Layout = ({ children }) => {
       </Head>
 
       <TopLeftImg />
-      <Nav />
       <Header />
 
       {/* main content */}

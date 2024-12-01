@@ -22,6 +22,14 @@
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
   }
+  /* index.css or global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+
   .page {
     @apply w-full h-screen overflow-hidden;
   }
