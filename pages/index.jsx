@@ -24,15 +24,15 @@ const Home = () => {
           </motion.h1>
 
           {/* subtitle */}
-          <motion.p
-            variants={fadeIn("down", 0.3)}
+          <motion.h3
+            variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 h3"
           >
             The author of Your time is now don't wait. Senior Financial advisor at UAP old mutual. Skilled capacity building trainer and financial literacy specialist.
-          </motion.p>
+          </motion.h3>
 
           {/* btn */}
           <motion.div
@@ -58,7 +58,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-20 lg:right-[8%]"
+          className="w-full h-full max-w-[737px] max-h-[850px] absolute -bottom-32 lg:bottom-20 lg:right-[8%]"
         >
           <Avatar />
         </motion.div>
