@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import { BsCart } from "react-icons/bs";
+import { BsArrowRight, BsCart } from "react-icons/bs";
 
 const ProjectsBtn = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -62,15 +62,12 @@ const ProjectsBtn = () => {
             Close
           </button>
 
-          {/* Transparent Iframe */}
+          {/* Iframe */}
           <iframe
             src="https://karimbook.netlify.app/"
-            className="w-[100%] h-[100%] bg-transparent rounded-lg shadow-lg"
+            className="w-[100%] h-[100%] bg-white rounded-lg shadow-lg"
             frameBorder="0"
-            allowTransparency="true"
-            style={{
-              backgroundColor: "transparent",
-            }}
+            allowFullScreen
           />
         </div>
       )}
